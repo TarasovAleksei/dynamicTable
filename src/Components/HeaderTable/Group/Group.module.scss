@@ -1,0 +1,23 @@
+@import '../../../variables.scss';
+
+.groupBtn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: $mainColor;
+  padding: 5px;
+  margin-right: 5px;
+  transition-duration: 0.3s;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+.groupHeading {
+  font-weight: bold;
+}
